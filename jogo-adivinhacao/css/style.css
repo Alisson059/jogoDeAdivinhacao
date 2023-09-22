@@ -1,0 +1,58 @@
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: wheat;
+    color: black;
+    display: flex;
+
+}
+
+h3{
+    font-size: 20px;
+    background: black;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+#conteiner {
+    border-radius: 5px;
+    background: burlywood;
+    padding: 20px;
+    box-shadow: 10px 10px 10px -5px, 10px 10px 10px -5px ;
+
+}
+button{
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+
+
+}
+
+button:hover {
+    transform: scale(1.05);
+
+}
+
+messge{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
